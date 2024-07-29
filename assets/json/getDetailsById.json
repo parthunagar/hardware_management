@@ -1,0 +1,179 @@
+{
+  "result": "success",
+  "message": "Get Assets Successfully.",
+  "data": {
+    "id": 2,
+    "company_name": "Dell",
+    "assets_type_id": 2,
+    "asstetypeName": "CPU",
+    "model_no": "Core i5",
+    "serial_no": "OH735H-72872-96H-16CP",
+    "custom_fields": [
+      {
+        "key": "Hard disk Type",
+        "type" : "dropdown",
+        "selected_item" : "HDD",
+        "dropDownItem" : ["Hard disk Type","HDD","SSD","NVME"]
+      },
+      {
+        "key": "Hard disk Size",
+        "type" : "textField",
+        "value" : "250",
+        "validationType":"numericonly"
+      },
+      {
+        "key": "Hard disk Size",
+        "type" : "dropdown",
+        "selected_item" : "GB",
+        "dropDownItem" : ["Hard disk Size","GB","TB"]
+      },
+      {
+        "key": "Hard disk Type (Optional)",
+        "type" : "dropdown",
+        "selected_item" : "SSD",
+        "dropDownItem" : ["Hard disk Type (Optional)","HDD","SSD","NVME"]
+      },
+      {
+        "key": "Hard disk Size (Optional)",
+        "type" : "textField",
+        "value" : "250",
+        "validationType":"numericonly"
+      },
+      {
+        "key": "Hard disk Size (Optional)",
+        "type" : "dropdown",
+        "selected_item" : "GB",
+        "dropDownItem" : ["Hard disk Size (Optional)","GB","TB"]
+      },
+      {
+        "key": "RAM Type",
+        "type" : "dropdown",
+        "selected_item" : "DDR2",
+        "dropDownItem" : ["RAM Type","DDR2","DDR3","DDR4"]
+      },
+      {
+        "key": "RAM Size",
+        "type" : "dropdown",
+        "selected_item" : "2",
+        "dropDownItem" : ["RAM Size","2","4","6","8","10","12","14","16","18","20"]
+      },
+      {
+        "key": "RAM Size",
+        "type" : "dropdown",
+        "selected_item" : "TB",
+        "dropDownItem" : ["RAM Size","GB","TB"]
+      },
+
+      {
+        "key": "Processor Type",
+        "type" : "dropdown",
+        "selected_item" : "i3",
+        "dropDownItem" : ["Processor Type","Pentium","C2D","i3","i5","i7","i9"]
+      },
+      {
+        "key": "Purchase Date (MM-DD-YYYY)",
+        "type" : "dateTime",
+        "value" : "04-12-2022"
+      },
+
+      {
+        "key": "Seller Name",
+        "type" : "textField",
+        "value": "VPN"
+      },
+      {
+        "key": "Warranty/Gurantee",
+        "type" : "textField",
+        "value": "1 year"
+      },
+      {
+        "key": "History",
+        "type" : "textField",
+        "value": "This is CPU history"
+      },
+      {
+        "key": "Pixel",
+        "type" : "textField",
+        "value": "1080p"
+      },
+      {
+        "key": "Add Location",
+        "type" : "textField",
+        "value": "VPN Infotech"
+      },
+      {
+        "key": "Cable Type",
+        "type" : "dropdown",
+        "selected_item" : "VGA cable",
+        "dropDownItem" : ["Cable Type","VGA cable", "HDMI cable", "Sata cable for Display (like HDMI)","Power cable 3 Pin","Harddisk cable for Motherboard","Android cable - Universal","Android cable - C Type","IOS cable","HDMI -> VGA"]
+      },
+      {
+        "key": "Total no. of cables",
+        "type" : "textField",
+        "value": "3",
+        "validationType":"numericonly"
+      },
+      {
+        "key": "Storage Size",
+        "type" : "textField",
+        "value" : "250",
+        "validationType":"numericonly"
+      },
+      {
+        "key": "Storage Size",
+        "type" : "dropdown",
+        "selected_item" : "GB",
+        "dropDownItem" : ["Storage Size","GB","TB"]
+      },
+      {
+        "key": "Version",
+        "type" : "textField",
+        "value" : "12"
+      },
+      {
+        "key": "Device Type",
+        "type" : "dropdown",
+        "selected_item" : "IOS",
+        "dropDownItem" : ["Device Type","Android","IOS"]
+      },
+      {
+        "key": "Screen Type",
+        "type" : "dropdown",
+        "selected_item" : "LCD",
+        "dropDownItem" : ["Screen Type","LCD","LED","HD"]
+      },
+      {
+        "key": "Screen Size",
+        "type" : "textField",
+        "value" : "22",
+        "validationType":"decimalonly"
+      },
+      {
+        "key": "Company/Shop Name",
+        "type" : "textField",
+        "value" : "CPS Branch"
+      },
+      {
+        "key": "Contact 1",
+        "type" : "textField",
+        "value" : "8989898989",
+        "validationType":"contactOnly"
+      },
+      {
+        "key": "Contact 2 (Optional)",
+        "type" : "textField",
+        "value" : "6778677867",
+        "validationType":"contactOnly"
+      },
+      {
+        "key": "Shop Address",
+        "type" : "textField",
+        "value" : "VIP road,varacha,surat"
+      }
+    ],
+    "status": "1",
+    "statusName": "Active",
+    "created_by": 1,
+    "updated_by": 1
+  }
+}

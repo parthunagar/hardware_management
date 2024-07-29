@@ -1,0 +1,346 @@
+{
+  "result": "success",
+  "message": "Get Assets Successfully.",
+  "data": {
+    "id": 2,
+    "company_name": "Dell",
+    "assets_type_id": 2,
+    "assetTypeName": "CPU",
+    "model_no": "Core i5",
+    "serial_no": "OH735H-72872-96H-16CP",
+    "custom_fields": [
+      {
+        "label": "Hard Disk Type",
+        "key": "hard_disk_type",
+        "element_type" : "dropdown",
+        "value" : "hardDiskTypeHdd",
+        "options" : [
+          {
+            "hardDiskType":"Hard Disk Type",
+            "hardDiskTypeHdd":"HDD",
+            "hardDiskTypeSsd":"SSD",
+            "hardDiskTypeNvmv":"NVME"
+          }
+        ],
+        "is_required":true
+      },
+      {
+        "label": "Hard Disk Size",
+        "key": "hard_disk_type_input",
+        "element_type" : "textField",
+        "value" : "250",
+        "validationType":"numericonly",
+        "options": [],
+        "is_required":true
+      },
+      {
+        "label": "Hard Disk Size",
+        "key": "hard_disk_type_select",
+        "element_type" : "dropdown",
+        "value" : "hardDiskSizeGb",
+        "options" : [
+          {
+            "hardDiskSize":"Hard Disk Size",
+            "hardDiskSizeGb":"GB",
+            "hardDiskSizeTb":"TB"
+          }
+        ],
+        "is_required":true
+      },
+      {
+        "label": "Hard Disk Type (Optional)",
+        "key": "hard_disk_type_optional",
+        "element_type" : "dropdown",
+        "value" : "hardDiskTypeHdd",
+        "options" : [
+          {
+            "hardDiskTypeOptional":"Hard Disk Type (Optional)",
+            "hardDiskTypeHdd":"HDD",
+            "hardDiskTypeSsd":"SSD",
+            "hardDiskTypeNvmv":"NVME"
+          }
+        ],
+        "is_required":true
+      },
+      {
+        "label": "Hard Disk Size (Optional)",
+        "key": "hard_disk_type_optional_input",
+        "element_type" : "textField",
+        "value" : "250",
+        "validationType":"numericonly",
+        "options": [],
+        "is_required":true
+      },
+      {
+        "label": "Hard Disk Size (Optional)",
+        "key": "hard_disk_type_optional_select",
+        "element_type" : "dropdown",
+        "value" : "hardDiskSizeTb",
+        "options" : [
+          {
+            "hardDiskSizeOptional":"Hard Disk Size (Optional)",
+            "hardDiskSizeGb":"GB",
+            "hardDiskSizeTb":"TB"
+          }
+        ],
+        "is_required":true
+      },
+      {
+        "label": "RAM Type",
+        "key": "ram_type",
+        "element_type" : "dropdown",
+        "value" : "ramTypeDdr3",
+        "options" : [
+          {
+            "ramType":"RAM Type",
+            "ramTypeDdr2":"DDR2",
+            "ramTypeDdr3":"DDR3",
+            "ramTypeDdr4":"DDR4"
+          }
+        ],
+        "is_required":true
+      },
+      {
+        "label": "RAM Size",
+        "key": "ram_size",
+        "element_type" : "dropdown",
+        "value" : "ramSize10",
+        "options" : [
+          {
+            "ramSize":"RAM Size",
+            "ramSize2":"2",
+            "ramSize4":"4",
+            "ramSize6":"6",
+            "ramSize8":"8",
+            "ramSize10":"10",
+            "ramSize12":"12",
+            "ramSize14":"14",
+            "ramSize16":"16",
+            "ramSize18":"18",
+            "ramSize20":"20"
+          }
+        ],
+        "is_required":true
+      },
+      {
+        "label": "RAM Size",
+        "key": "ram_size_type",
+        "element_type" : "dropdown",
+        "value" : "ramSizeGb",
+        "options" : [
+          {
+            "ramSize":"RAM Size",
+            "ramSizeGb":"GB",
+            "ramSizeTb":"TB"
+          }
+        ],
+        "is_required":true
+      },
+
+      {
+        "label": "Processor Type",
+        "key": "processor_type",
+        "element_type" : "dropdown",
+        "value" : "processorI3",
+        "options" : [
+          {
+            "processorType":"Processor Type",
+            "processorPentium":"Pentium",
+            "processorC2d":"C2D",
+            "processorI3":"i3",
+            "processorI5":"i5",
+            "processorI7":"i7",
+            "processorI9":"i9"
+          }
+        ],
+        "is_required":true
+      },
+      {
+        "label": "Purchase Date (MM-DD-YYYY)",
+        "key": "purchase_date",
+        "element_type" : "dateTime",
+        "value" : "04-12-2022",
+        "options": [],
+        "is_required":true
+      },
+
+      {
+        "label": "Seller Name",
+        "key": "seller_name",
+        "element_type" : "textField",
+        "value": "VPN",
+        "options": [],
+        "is_required":true
+      },
+      {
+        "label": "Warranty/Gurantee",
+        "key": "warranty_gurantee",
+        "element_type" : "textField",
+        "value": "1 year",
+        "options": [],
+        "is_required":true
+      },
+      {
+        "label": "History",
+        "key": "history",
+        "element_type" : "textField",
+        "value": "This is CPU history",
+        "options": [],
+        "is_required":true
+      },
+      {
+        "label": "Pixel",
+        "key": "pixel",
+        "element_type" : "textField",
+        "value": "1080p",
+        "options": [],
+        "is_required":true
+      },
+      {
+        "label": "Add Location",
+        "key": "add_location",
+        "element_type" : "textField",
+        "value": "VPN Infotech",
+        "options": [],
+        "is_required":true
+      },
+      {
+        "label": "Cable Type",
+        "key": "cable_type",
+        "element_type" : "dropdown",
+        "value" : "sataCable",
+        "options" : [
+          {
+            "cableType":"Cable Type",
+            "vgaCable":"VGA cable",
+            "hdmiCable":"HDMI cable",
+            "sataCable":"Sata cable for Display (like HDMI)",
+            "powerCable":"Power cable 3 Pin",
+            "hardDiskCable":"Harddisk cable for Motherboard",
+            "androidCableU":"Android cable - Universal",
+            "androidCableC":"Android cable - C Type",
+            "iosCable":"IOS cable",
+            "hdmiToVgaCable":"HDMI -> VGA"
+          }
+        ],
+        "is_required":true
+      },
+      {
+        "label": "Total no. of cables",
+        "key": "total_no_cables",
+        "element_type" : "textField",
+        "value": "3",
+        "validationType":"numericonly",
+        "options": [],
+        "is_required":true
+      },
+      {
+        "label": "Storage Size",
+        "key": "storage_size_input",
+        "element_type" : "textField",
+        "value" : "250",
+        "validationType":"numericonly",
+        "options": [],
+        "is_required":true
+      },
+      {
+        "label": "Storage Size",
+        "key": "storage_size_select",
+        "element_type" : "dropdown",
+        "value" : "storageSizeGb",
+        "options" : [
+          {
+            "storageSize":"Storage Size",
+            "storageSizeGb":"GB",
+            "storageSizeTb":"TB"
+          }
+        ],
+        "is_required":true
+      },
+      {
+        "label": "Version",
+        "key": "version",
+        "element_type" : "textField",
+        "value" : "12",
+        "options": [],
+        "is_required":true
+      },
+      {
+        "label": "Device Type",
+        "key": "device_type",
+        "element_type" : "dropdown",
+        "value" : "deviceTypeAndroid",
+        "options" : [
+          {
+            "deviceType":"Device Type",
+            "deviceTypeAndroid":"Android",
+            "deviceTypeIos":"IOS"
+          }
+        ],
+        "is_required":true
+      },
+      {
+        "label": "Screen Type",
+        "key": "screen_type",
+        "element_type" : "dropdown",
+        "value" : "screenTypeLed",
+        "options" : [
+          {
+            "screenType":"Screen Type",
+            "screenTypeLcd":"LCD",
+            "screenTypeLed":"LED",
+            "screenTypeHd":"HD"
+          }
+        ],
+        "is_required":true
+      },
+      {
+        "label": "Screen Size",
+        "key": "screen_size",
+        "element_type" : "textField",
+        "value" : "22",
+        "validationType":"decimalonly",
+        "options": [],
+        "is_required":true
+      },
+      {
+        "label": "Company/Shop Name",
+        "key": "company_shop_name",
+        "element_type" : "textField",
+        "value" : "CPS Branch",
+        "options": [],
+        "is_required":true
+      },
+      {
+        "label": "Contact 1",
+        "key": "contact_one",
+        "element_type" : "textField",
+        "value" : "8989898989",
+        "validationType":"contactOnly",
+        "options": [],
+        "is_required":true
+      },
+      {
+        "label": "Contact 2 (Optional)",
+        "key": "contact_two_optional",
+        "element_type" : "textField",
+        "value" : "6778677867",
+        "validationType":"contactOnly",
+        "options": [],
+        "is_required":true
+      },
+      {
+        "label": "Shop Address",
+        "key": "shop_address",
+        "element_type" : "textField",
+        "value" : "VIP road,varacha,surat",
+        "options": [],
+        "is_required":true
+      }
+    ],
+    "status": "1",
+    "statusName": "Active",
+    "created_by": 1,
+    "updated_by": 1
+  }
+}
